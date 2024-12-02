@@ -33,7 +33,9 @@ Cython
 scikit-learn
 ```
 
-In order to install torch correctly, you will need to do the following steps (UNLESS YOU HAVE ALREADY INSTALLED TORCH):
+In order to install torch correctly, you will need to do the following steps (UNLESS YOU HAVE ALREADY INSTALLED TORCH): 
+
+https://forums.developer.nvidia.com/t/pytorch-for-jetson/72048
 
 ```
 sudo apt-get install libopenblas-base libopenmpi-dev

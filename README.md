@@ -34,3 +34,21 @@ sudo apt install torch-1.10.0-cp36-cp36m-linux_aarch64.whl
 In order to save a recording using the audio module, you can utilise the function `get_mic_pipeline` from a previous lab session:
 
 https://github.com/Vladimirescu/iasi-emotion/blob/3b5e79bcab872535c2194055bf332ff5f0081ea5/pipelines/get_pipeline.py#L36
+
+#Embeddings extraction
+In order to extract embedding we will use the following script: (the script will return a .pkl file like the one we used in the google colab file)
+
+`python3 src/extract_embeddings --initial_model models/vox2.model --eval_list files_list.txt`
+
+The `files_list.txt` will need the following format:
+```
+id0 /full_path/to/audio_file0.wav
+id0 /full_path/to/audio_file1.wav
+id1 /full_path/to/audio_file2.wav
+id2 /full_path/to/audio_file3.wav
+id2 /full_path/to/audio_file4.wav
+id2 /full_path/to/audio_file5.wav
+...
+```
+
+

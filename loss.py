@@ -5,7 +5,7 @@ AAMsoftmax loss function copied from voxceleb_trainer: https://github.com/clovaa
 import torch, math
 import torch.nn as nn
 import torch.nn.functional as F
-from ecapa.tools import *
+from tools import *
 
 class AAMsoftmax(nn.Module):
     def __init__(self, n_class, m, s):

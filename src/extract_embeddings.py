@@ -1,8 +1,8 @@
 import sys
 import argparse, glob, os, torch, warnings, time
-from ecapa.tools import *
-from ecapa.dataLoader import test_loader
-from ecapa.ECAPAModel import ECAPAModel
+from tools import *
+from dataLoader import test_loader
+from ECAPAModel import ECAPAModel
 
 
 if __name__ == "__main__":

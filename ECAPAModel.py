@@ -2,7 +2,7 @@
 This part is used to train the speaker model and evaluate the performances
 '''
 
-import torch, sys, os, tqdm, numpy, soundfile, time, pickle
+import torch, sys, os, tqdm, numpy, time, pickle#soundfile, time, pickle
 import torch.nn as nn
 from ecapa.tools import *
 from ecapa.loss import AAMsoftmax
@@ -45,7 +45,7 @@ class ECAPAModel(nn.Module):
                         sys.stderr.flush()
                 sys.stdout.write("\n")
                 return loss/num, lr, top1/index*len(labels)
-
+        """
         def eval_network(self, eval_list, eval_path):
                 self.eval()
                 files = []
@@ -100,7 +100,7 @@ class ECAPAModel(nn.Module):
                 minDCF, _ = ComputeMinDcf(fnrs, fprs, thresholds, 0.05, 1, 1)
 
                 return EER, minDCF
-
+        """
         def save_parameters(self, path):
                 torch.save(self.state_dict(), path)
 

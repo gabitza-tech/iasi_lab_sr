@@ -14,6 +14,10 @@ https://ctipub-my.sharepoint.com/:u:/g/personal/gabriel_pirlogeanu_upb_ro/Eahwi5
 
 # Second part of the lab
 
+You can download the pretrained model from:
+
+https://ctipub-my.sharepoint.com/:u:/g/personal/gabriel_pirlogeanu_upb_ro/EdFPXb4iTHRIpd-YR2lRtyUBPU18-5xV7EXfsI0QECzZ-g?e=XaAvQx
+
 In the second part of the lab, we will use a set of recordings from which we will extract the embeddings and create the support set and then create a pipeline where we predict based on a new recording. We will need the following packages:
 
 ```

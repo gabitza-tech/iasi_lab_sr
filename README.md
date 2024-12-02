@@ -12,6 +12,7 @@ https://colab.research.google.com/drive/1-dQ2e6C_-1sZbhp65g92asmpgRk7CyP4#scroll
 For the embeddings:
 
 https://ctipub-my.sharepoint.com/:u:/g/personal/gabriel_pirlogeanu_upb_ro/EdrWlHwqIVBEnK8-bCczdX8BSN_N17_a1cEJn6QP8EfIIg?e=fPLtco
+
 https://ctipub-my.sharepoint.com/:u:/g/personal/gabriel_pirlogeanu_upb_ro/Eahwi5LaNo5Aq4r-SA2W7kMBNSqo4wtGVZ5JNm_l5ZHiDA?e=clwo2b
 
 # Second part of the lab

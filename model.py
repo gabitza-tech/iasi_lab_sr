@@ -10,7 +10,7 @@ This model is modified and combined based on the following three projects:
 import math, torch, torchaudio
 import torch.nn as nn
 import torch.nn.functional as F
-from ecapa.melspec import MelSpectrogramNoTorchAudio
+from melspec import MelSpectrogramNoTorchAudio
 
 class SEModule(nn.Module):
     def __init__(self, channels, bottleneck=128):

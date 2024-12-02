@@ -1,5 +1,7 @@
 # Few-Shot Speaker Recognition
 
+![alt text](https://github.com/gabitza-tech/iasi_lab_sr/blob/main/few-shot.png?raw=true)
+
 For this lab, we will explore the meta-learning concept of Few-Shot Learning applied in the field fo Speaker Recognition. Compared to traditional machine learning methods, we assume that we receive at inference time a sample with a class that has not been previously seen in training. In order to tackle this problem, several architectures have been developed to handle training on a very small set of samples. However, another paradigm is leveraging pre-trained models on large datasets without further fine-tuning.
 
 # First part of the lab

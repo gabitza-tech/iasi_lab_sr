@@ -16,6 +16,10 @@ https://ctipub-my.sharepoint.com/:u:/g/personal/gabriel_pirlogeanu_upb_ro/EdrWlH
 https://ctipub-my.sharepoint.com/:u:/g/personal/gabriel_pirlogeanu_upb_ro/Eahwi5LaNo5Aq4r-SA2W7kMBNSqo4wtGVZ5JNm_l5ZHiDA?e=clwo2b
 
 # Second part of the lab
+You can download the recording from last year here:
+
+https://ctipub-my.sharepoint.com/:u:/g/personal/gabriel_pirlogeanu_upb_ro/ERrK1k97a3hFopNhbztAhY4BMxVnrHoNWDErN8vjXmBHUQ?e=duj6m3
+
 
 You can download the pretrained model from:
 

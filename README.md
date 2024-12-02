@@ -51,7 +51,10 @@ https://github.com/Vladimirescu/iasi-emotion/blob/3b5e79bcab872535c2194055bf332f
 #Embeddings extraction
 In order to extract embedding we will use the following script: (the script will return a .pkl file like the one we used in the google colab file)
 
-`python3 src/extract_embeddings --initial_model models/vox2.model --eval_list files_list.txt`
+```
+export PYTHONPATH=$(pwd)
+python3 src/extract_embeddings --initial_model models/vox2.model --eval_list files_list.txt
+```
 
 The `files_list.txt` will need the following format:
 ```

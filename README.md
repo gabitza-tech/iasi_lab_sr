@@ -40,7 +40,7 @@ https://forums.developer.nvidia.com/t/pytorch-for-jetson/72048
 ```
 sudo apt-get install libopenblas-base libopenmpi-dev
 wget https://nvidia.box.com/shared/static/fjtbno0vpo676a25cgvuqc1wty0fkkg6.whl -O  torch-1.10.0-cp36-cp36m-linux_aarch64.whl
-sudo apt install torch-1.10.0-cp36-cp36m-linux_aarch64.whl
+pip3 install torch-1.10.0-cp36-cp36m-linux_aarch64.whl
 
 ```
 
